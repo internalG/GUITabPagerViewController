@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143F7BEC1EADBB90007D26D1 /* RotationTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143F7BEB1EADBB90007D26D1 /* RotationTableController.m */; };
 		796C72B91AA13C8600BF4A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C72B81AA13C8600BF4A99 /* main.m */; };
 		796C72BC1AA13C8600BF4A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C72BB1AA13C8600BF4A99 /* AppDelegate.m */; };
 		796C72BF1AA13C8600BF4A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 796C72BE1AA13C8600BF4A99 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143F7BEA1EADBB90007D26D1 /* RotationTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationTableController.h; sourceTree = "<group>"; };
+		143F7BEB1EADBB90007D26D1 /* RotationTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationTableController.m; sourceTree = "<group>"; };
 		796C72B31AA13C8600BF4A99 /* GUITabPagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GUITabPagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		796C72B71AA13C8600BF4A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		796C72B81AA13C8600BF4A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -92,6 +95,8 @@
 				796C72BB1AA13C8600BF4A99 /* AppDelegate.m */,
 				796C72BD1AA13C8600BF4A99 /* ViewController.h */,
 				796C72BE1AA13C8600BF4A99 /* ViewController.m */,
+				143F7BEA1EADBB90007D26D1 /* RotationTableController.h */,
+				143F7BEB1EADBB90007D26D1 /* RotationTableController.m */,
 				796C72C01AA13C8600BF4A99 /* Main.storyboard */,
 				796C72C31AA13C8600BF4A99 /* Images.xcassets */,
 				796C72C51AA13C8600BF4A99 /* LaunchScreen.xib */,
@@ -240,6 +245,7 @@
 			files = (
 				796C72E11AA13CB900BF4A99 /* GUITabPagerViewController.m in Sources */,
 				796C72BF1AA13C8600BF4A99 /* ViewController.m in Sources */,
+				143F7BEC1EADBB90007D26D1 /* RotationTableController.m in Sources */,
 				796C72BC1AA13C8600BF4A99 /* AppDelegate.m in Sources */,
 				796C72B91AA13C8600BF4A99 /* main.m in Sources */,
 				796C72E21AA13CB900BF4A99 /* GUITabScrollView.m in Sources */,

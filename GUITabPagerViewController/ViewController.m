@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "RotationTableController.h"
+
 
 @interface ViewController () <GUITabPagerDataSource, GUITabPagerDelegate>
 
@@ -36,7 +38,7 @@
 - (UIViewController *)viewControllerForIndex:(NSInteger)index {
   #pragma unused (index)
 
-  UIViewController *pageVC = [UIViewController new];
+    UIViewController *pageVC = [self.storyboard instantiateViewControllerWithIdentifier:@"table"];
   [[pageVC view] setBackgroundColor:[UIColor colorWithRed:arc4random_uniform(255) / 255.0f
                                                     green:arc4random_uniform(255) / 255.0f
                                                      blue:arc4random_uniform(255) / 255.0f
